@@ -34,10 +34,10 @@ It will automatically pull your config (confirm that by looking for that info in
 
 Of course you can also use any of the custom fixers in this repo in your config, or extend/modify them as you like.
 
-```
+```php
 ...
 ->finder($finder)
-->addCustomFixer(new \Fixer\Fixer\NoSpacesCastFixer())
+->addCustomFixer(new \Psr2rFixer\Fixer\NoSpacesCastFixer())
 ...
 ```
 
