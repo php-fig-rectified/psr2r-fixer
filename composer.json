@@ -1,0 +1,25 @@
+{
+	"name": "fig-r/psr2r-fixer",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Mark Scherer",
+			"homepage": "http://www.dereuromark.de",
+			"role": "Contributor"
+		}
+	],
+	"require": {
+		"php": ">=5.4.16",
+		"fabpot/php-cs-fixer": "^1.9"
+	},
+	"autoload": {
+		"psr-4": {
+			"Psr2rFixer\\": "src"
+		}
+	},
+	"autoload-dev": {
+		"psr-4": {
+			"Psr2rFixer\\Test\\": "tests"
+		}
+	}
+}

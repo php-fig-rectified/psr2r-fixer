@@ -1,0 +1,19 @@
+# Fixer
+
+## braces fixer issue
+
+https://github.com/FriendsOfPHP/PHP-CS-Fixer/pull/935
+
+## Inline Assignment fixer
+
+Breaks in some cases (does too much leading to invalid code)
+
+if (($pos = strrpos($substr, DS)) !== false) {
+}
+
+
+# Sniffer
+
+## Consistent brace style
+
+Does not work yet

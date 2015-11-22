@@ -1,0 +1,7 @@
+/vendor/*
+/tmp/*
+/logs/*
+/phpunit.phar
+/composer.phar
+/.idea
+/tests/Fixtures/Complete/Test/*
