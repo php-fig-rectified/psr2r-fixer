@@ -4,16 +4,25 @@
 
 https://github.com/FriendsOfPHP/PHP-CS-Fixer/pull/935
 
+```php
+	if ($x) {
+		//return $this->redirect();
+	} else {
+	}
+```
+becomes
+```php
+	if ($x) {
+		//return $this->redirect();
+} else {
+}
+```
+
 ## Inline Assignment fixer
 
 Breaks in some cases (does too much leading to invalid code)
 
+```php
 if (($pos = strrpos($substr, DS)) !== false) {
 }
-
-
-# Sniffer
-
-## Consistent brace style
-
-Does not work yet
+```
