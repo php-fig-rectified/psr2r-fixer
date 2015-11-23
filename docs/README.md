@@ -4,6 +4,31 @@ For details on PSR-2-R see [fig-rectified-standards](https://github.com/php-fig-
 ## Documentation on the fixer itself
 This uses and extends [FriendsOfPHP/PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer).
 
+## Fixers available
+The following fixers are bundles together with PSR-2-R already, but you can
+also use them standalone/separately in any way you like. 
+
+### PSR-2-R
+- UseTabs
+- ConsistentBraces (Always on the end of the same line)
+- FunctionSpacing (Newlines above and below each function/method)
+- EmptyEnclosingLines (Newline at beginning and end of class)
+
+### Additions
+- NoInlineAssignment
+- ConditionalExpressionOrder
+- MethodArgumentDefaultValue
+- RemoveFunctionAlias
+- ShortCast
+- NoSpacesCast
+- NoIsNull
+- PreferCastOverFunction
+- WhitespaceAfterReturn
+- PhpSapiConstant
+- PhpdocParams
+- PhpdocPipe
+- PhpdocReturnSelf
+
 ## Writing fixers
 We write sniffers mainly for the above standard (using tabs), but all fixers should also aim to work with spaces as indentation.
 
