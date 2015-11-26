@@ -6,7 +6,7 @@ This uses and extends [FriendsOfPHP/PHP-CS-Fixer](https://github.com/FriendsOfPH
 
 ## Fixers available
 The following fixers are bundles together with PSR-2-R already, but you can
-also use them standalone/separately in any way you like. 
+also use them standalone/separately in any way you like.
 
 ### PSR-2-R
 - UseTabs
@@ -28,6 +28,11 @@ also use them standalone/separately in any way you like.
 - PhpdocParams
 - PhpdocPipe
 - PhpdocReturnSelf
+
+## Important notes
+- Do not run the fixer with any path after the command "fix". It will then ignore your .phpcs file completely.
+Better to copy your .phpcs file into the directory you want to specifically fix and run the fixer relatively from there.
+The other option would be to temporary modify the path set in .phpcs.
 
 ## Writing fixers
 We write sniffers mainly for the above standard (using tabs), but all fixers should also aim to work with spaces as indentation.
