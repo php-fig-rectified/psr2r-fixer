@@ -9,6 +9,10 @@ For details on PSR-2-R see [fig-rectified-standards](https://github.com/php-fig-
 
 Full documentation @ [/docs/](docs).
 
+## Deprecated
+This tool is not used/maintained anymore. Please use the [sniffer](https://github.com/php-fig-rectified/psr2r-sniffer) which can both detect and fix cs issues as well as tokenize PHP files.
+
+
 ## PHP-CS-FIXER Fixers
 
 This uses [FriendsOfPHP/PHP-CS-Fixer](https://github.com/FriendsOfPHP/PHP-CS-Fixer).
